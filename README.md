@@ -1,3 +1,3 @@
-# Dataset of matrix games for machine learning 
+# Machine learning for matrix games
 
-This is an attempt to create an open data resource of matrix games for researchers interested in applying machine learning methods to problems in game theory.
+This is an attempt to create an open data resource of matrix games and analysis methods for researchers interested in applying machine learning to problems in game theory.
