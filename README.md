@@ -17,3 +17,5 @@
 - Goeree and Holt (2001) : Ten little treasures of game theory and ten intuitive contradictions (only games from "A Matching Pennies Game" and "The Kreps Game")
 
 - Rydval and Ortmann (2005) : Loss avoidance as selection principle, evidence from simple stag-hunt games
+
+- Haruvy and Stahl (1998) : An empirical model of equilibrium selection in symmetric normal-form games
