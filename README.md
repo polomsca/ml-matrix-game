@@ -1,5 +1,11 @@
 # Machine learning for matrix games
 
+## Model architecture based on
+
+- Hartford et al (2016) : Deep learning for predicting human strategic behavior
+
+## Game dataset based on
+
 - Haruvy et al (2001) : Modeling and testing for heterogeneity in observed strategic behavior
 
 - Haruvy and Stahl (2007) : Equilibrium selection and bounded rationality in symmetric normal-form games
