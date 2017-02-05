@@ -1,10 +1,10 @@
 # Machine learning for matrix games
 
-## Graph based on
+## ML Model based on
 
 - Hartford et al (2016) : Deep learning for predicting human strategic behavior
 
-## Games based on
+## Games taken from
 
 - Haruvy et al (2001) : Modeling and testing for heterogeneity in observed strategic behavior
 
