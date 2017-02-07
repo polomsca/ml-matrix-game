@@ -43,3 +43,9 @@ Game 10 should be read instead as
 | 25     | 0      |     0  |
 | 0      | 55     |     25 |
 |   100  |   35   |     35 |
+
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
