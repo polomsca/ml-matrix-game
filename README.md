@@ -1,6 +1,6 @@
 # Machine learning for matrix games
 
-## ML Model based on
+## ML models based on
 
 - Hartford et al (2016) : Deep learning for predicting human strategic behavior
 
