@@ -30,12 +30,13 @@
 
 [<a name="myfootnote1">1</a>] Appendix D, Game 10 is printed incorrectly as
 
- | A | B | C
---- | --- | --- | ---
- | 12 | 63 | 22 
-A | 0 | 0 | 38 
-B | 55 | 25 | 40 
-C | 35 | 35 | 43 
+
+
+`12` | `63` | `22` 
+--- | --- | ---
+0 | 0 | 38 
+55 | 25 | 40 
+35 | 35 | 43 
 
 Game 10 should be read instead as
 
