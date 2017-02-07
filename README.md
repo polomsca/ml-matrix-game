@@ -12,7 +12,7 @@
 
 - Rogers et al (2009) : Heterogeneous quantal response equilibrium and cognitive hierarchies
 
-- Stahl and Haruvy (2008) : Level-n bounded rationality and dominated strategies in normal-form games
+- Stahl and Haruvy (2008) : Level-n bounded rationality and dominated strategies in normal-form games <sup>[1](#myfootnote1)</sup>
 
 - Stahl and Wilson (1994) : Experimental evidence on players' models of other players
 
@@ -25,3 +25,7 @@
 - Rydval and Ortmann (2005) : Loss avoidance as selection principle, evidence from simple stag-hunt games
 
 - Haruvy and Stahl (1998) : An empirical model of equilibrium selection in symmetric normal-form games
+
+## Footnotes
+
+<a name="myfootnote1">1</a>: Footnote content goes here
