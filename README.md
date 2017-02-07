@@ -30,7 +30,7 @@
 
 [<a name="myfootnote1">1</a>] Appendix D, Game 10 is printed incorrectly as
 
-| **12** | **63** | **22** |
+| 12 | 63 | 22 |
 | -----  | ------ | ------ |
 | 0      | 0      |     38 |
 | 55     | 25     |     40 |
