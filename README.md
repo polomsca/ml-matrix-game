@@ -1,4 +1,4 @@
-# Machine learning for matrix games
+# One-shot games
 
 ## ML models based on
 
