@@ -1,5 +1,11 @@
 # One-shot games
 
+Experiment criteria:
+
+- One-shot games (not repeated, no "second-mover")
+
+- Matrix form games (also bimatrix, normal, strategic, but not extensive)
+
 ## ML models based on
 
 - Hartford et al (2016) : Deep learning for predicting human strategic behavior
