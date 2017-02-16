@@ -1,10 +1,16 @@
 # One-shot games
 
-Experiment criteria:
+This is a compilation of data from several behavioral economics experiments where people play games, like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma), and were paid based on how well they did.
 
-- One-shot games (not repeated, no "second-mover")
+To contribute to this database, you can submit any experiment with games that are:
 
-- Matrix form games (also bimatrix, normal, strategic, but not extensive)
+1. One-shot (not repeated, no "second-mover")
+
+2. Matrix form (also bimatrix, normal, strategic, but not extensive)
+
+This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games.
+
+To contribute to this collection, you can submit any relevant models or papers.
 
 ## ML models based on
 
