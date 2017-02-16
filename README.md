@@ -7,7 +7,10 @@ This is a compilation of data from several behavioral economics experiments wher
 stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | | 40
 
 A couple notes on formatting:
-- `matrixrow`
+- `matrixrow` : Gives the payoff matrix for the row player. In each row, separate elements with a space. Separate rows with semicolons. This lets `numpy.matrix()` return a matrix with the correct dimensions, as opposed to a flattened array, or vector.
+- `matrixcol` : If the game is symmetric and the player results are pooled, you may leave this field blank.
+- `choicerow` : Gives the frequency of each choice for the row player. If frequencies are represented as fractions, separate integers with a space, not a forward slash. Separate choices with a semicolon. 
+- `choicecol` : If the game is symmetric, and the player results are pooled, you may leave this field blank.
 
 This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or papers.
 
