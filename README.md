@@ -1,10 +1,10 @@
 # One-shot games
 
-This is a compilation of data from several behavioral economics experiments where people play games, like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma), and were paid based on how well they did. To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are:
+This is a compilation of data from several behavioral economics experiments where people play games, like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma), and were paid based on how well they did. To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are one-shot (no finitely repeated games and no "second-mover" games) and in matrix form (also known as bimatrix, normal, or strategic forms). Please use the following format:
 
-1. One-shot (not repeated, no "second-mover")
-
-2. Matrix form (also bimatrix, normal, strategic, but not extensive)
+`paper` | `game` | `matrixrow` | `matrixcol` | `choicerow` | `choicecol` | `shape` | `symmetric` | `repeats` | `subjects` 
+--- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | | 40
 
 This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or papers.
 
