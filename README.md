@@ -6,6 +6,9 @@ This is a compilation of data from several behavioral economics experiments wher
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | | 40
 
+A couple notes on formatting:
+- `matrixrow`
+
 This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or papers.
 
 ## ML models based on
