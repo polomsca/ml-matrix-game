@@ -1,6 +1,6 @@
 # One-shot games
 
-This is a compilation of data from several behavioral economics experiments where people play games, like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma), and were paid based on how well they did. To contribute to this database, you can submit any experiment with games that are:
+This is a compilation of data from several behavioral economics experiments where people play games, like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma), and were paid based on how well they did. To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are:
 
 1. One-shot (not repeated, no "second-mover")
 
