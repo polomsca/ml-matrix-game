@@ -19,7 +19,7 @@ A couple notes on formatting:
 - `symmetric` : `1` if symmetric, `0` otherwise.
 - `repeats` : Entries of other games that have identical payoff matrices.
 
-This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or papers.
+This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models in papers.
 
 ## ML models based on
 
