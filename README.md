@@ -19,11 +19,11 @@ A couple notes on formatting:
 - `symmetric` : `1` if symmetric, `0` otherwise.
 - `repeats` : Entries of other games that have identical payoff matrices.
 
-This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models in papers. Currently, projects are written in IPython notebooks using the following libraries and packages:
+This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models in papers. Currently, projects are written in [IPython notebooks](https://ipython.org/) using the following libraries and packages:
 
-- NumPy
-- pandas
-- TensorFlow
+- [NumPy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org/)
+- [TensorFlow](https://www.tensorflow.org/)
 
 ## ML models based on
 
