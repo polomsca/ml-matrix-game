@@ -29,7 +29,7 @@ This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Ma
 
 - Hartford et al (2016) : Deep learning for predicting human strategic behavior
   - [FFNet](https://github.com/polomsca/one-shot-games/blob/master/modelsffnet.ipynb)
-  - [GameNet]()
+  - [GameNet](https://github.com/polomsca/one-shot-games/blob/master/modelsgamenet.ipynb)
 
 ## Games taken from
 
