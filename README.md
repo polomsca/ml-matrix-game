@@ -4,11 +4,13 @@
 
 This is a compilation of data from several behavioral economics experiments where people play various games like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma) or [Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt). 
 
-To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that:
+To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are:
 
-- Are one-shot (no finitely repeated or "second-mover" games), and 
-- In matrix form (also known as bimatrix, normal, or strategic), and
-- Can include experimental treatments if no significant deviation from baseline was found
+- Two-player
+- one-shot (no finitely repeated games)
+- simultaneous (no "second-mover" games)
+- in matrix form (also bimatrix, normal, or strategic)
+- which can include experimental treatments if no significant deviation from baseline was found
 
 You may email me the paper the games appear in, or you may input the data with the following format:
 
