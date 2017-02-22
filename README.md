@@ -6,9 +6,9 @@ This is a compilation of data from several behavioral economics experiments wher
 
 To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are one-shot (no finitely repeated or "second-mover" games) and in matrix form (also known as bimatrix, normal, or strategic). You may submit the paper the games appear in, or you may input the data with the following format:
 
-`paper` | `game` | `matrixrow` | `matrixcol` | `choicerow` | `choicecol` | `shape` | `symmetric` | `repeats` | `subjects` 
---- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | | 40
+`paper` | `game` | `matrixrow` | `matrixcol` | `choicerow` | `choicecol` | `shape` | `symmetric` | `subjects` 
+--- | --- | --- | --- | --- | --- | --- | --- | ---
+stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | 40
 
 A couple notes on formatting:
 
@@ -18,7 +18,6 @@ A couple notes on formatting:
 - `choicecol` : This field may be left blank if the game is symmetric and the player results are pooled.
 - `shape` : The number of rows followed by number of columns. Separate values by a space.
 - `symmetric` : `1` if symmetric, `0` otherwise.
-- `repeats` :  A list of the CSV row numbers of other games that have identical payoff matrices. Separate values by a space.
 - `subjects` : The total number of subjects if `choicerow` and `choicecol` are expressed as decimals.
 
 This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models in papers. Currently, projects are written in [IPython notebooks](https://ipython.org/) using the following libraries and packages:
