@@ -13,11 +13,13 @@ stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 
 A couple notes on formatting:
 
 - `matrixrow` : The payoff matrix for the row player. In each row, separate elements with a space. Separate rows with semicolons. This lets `numpy.matrix()` return a matrix with the correct dimensions.
-- `matrixcol` : If the game is symmetric and the player results are pooled, you may leave this field blank.
+- `matrixcol` : This field may be left blank if the game is symmetric and the player results are pooled.
 - `choicerow` : The frequency of each choice for the row player. If frequencies are represented as fractions, separate integers with a space, not a forward slash. Separate choices with a semicolon. 
-- `choicecol` : If the game is symmetric, and the player results are pooled, you may leave this field blank.
+- `choicecol` : This field may be left blank if the game is symmetric and the player results are pooled.
+- `shape` : The number of rows followed by number of columns. Separate values by a space.
 - `symmetric` : `1` if symmetric, `0` otherwise.
-- `repeats` : Entries of other games that have identical payoff matrices.
+- `repeats` :  A list of the CSV row numbers of other games that have identical payoff matrices. Separate values by a space.
+- `subjects` : The total number of subjects if `choicerow` and `choicecol` are expressed as decimals.
 
 This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models in papers. Currently, projects are written in [IPython notebooks](https://ipython.org/) using the following libraries and packages:
 
