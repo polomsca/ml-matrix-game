@@ -4,25 +4,15 @@
 
 This is a compilation of data from several behavioral economics experiments where people play various games like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma) or [Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt). 
 
-To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are:
-
-- Two-player
-- one-shot (no finitely repeated games)
-- simultaneous (no "second-mover" games)
-- in matrix form (also bimatrix, normal, or strategic)
-- which can include experimental treatments if no significant deviation from baseline was found
-
-You may email me the paper the games appear in, or you may input the data with the following format:
+To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are two-player, one-shot, and normal-form, like so:
 
 `paper` | `game` | `matrixrow` | `matrixcol` | `choicerow` | `choicecol` | `shape` | `symmetric` | `n` 
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | 
 
-A couple notes on formatting:
-
-- `matrixrow` : The payoff matrix for the row player. In each row, separate elements with a space. Separate rows with semicolons. This lets `numpy.matrix()` return a matrix with the correct dimensions.
+- `matrixrow` : The payoff matrix for the row player. Separate elements in a row with a space. Separate rows with a semicolon.
 - `matrixcol` : This field may be left blank if the game is symmetric and the player results are pooled.
-- `choicerow` : The frequency of each choice for the row player. If frequencies are represented as fractions, separate integers with a space, not a forward slash. Separate choices with a semicolon. 
+- `choicerow` : The choice frequency for the row player. For fractions, separate integers with a space, not a slash. Separate choice frequencies with a semicolon. 
 - `choicecol` : This field may be left blank if the game is symmetric and the player results are pooled.
 - `shape` : The number of rows followed by number of columns. Separate values by a space.
 - `symmetric` : `1` if symmetric, `0` otherwise.
@@ -54,13 +44,15 @@ This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Ma
 
 - Stahl and Wilson (1995) : On players' models of other players, theory and experimental evidence
 
-- Goeree and Holt (2001) : Ten little treasures of game theory and ten intuitive contradictions (only games from "A Matching Pennies Game" and "The Kreps Game")
+- Goeree and Holt (2001) : Ten little treasures of game theory and ten intuitive contradictions 
+    - (only games from "A Matching Pennies Game" and "The Kreps Game")
 
 - Rydval and Ortmann (2005) : Loss avoidance as selection principle, evidence from simple stag-hunt games
 
 - Haruvy and Stahl (1998) : An empirical model of equilibrium selection in symmetric normal-form games
 
-- Costa-Gomes et al (1998) : Cognition and behavior in normal-form games, an experimental study (only games without TS treatment)
+- Costa-Gomes et al (1998) : Cognition and behavior in normal-form games, an experimental study 
+    - (only games without TS treatment)
 
 ## Footnotes
 
