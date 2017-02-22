@@ -12,7 +12,7 @@ stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 
 
 - `matrixrow` : Row player's payoff matrix. Separate elements with a space. Separate rows with a semicolon.
 - `matrixcol` : May be left blank if player results are pooled.
-- `choicerow` : Row player's choice frequencies. For fractions, separate integers with a space. Separate frequencies with a semicolon. 
+- `choicerow` : Row player's choice frequencies. Separate values by a semicolon. Fractions use a space instead of a slash. 
 - `choicecol` : May be left blank if player results are pooled.
 - `shape` : Number of rows followed by number of columns. Separate values by a space.
 - `symmetric` : `1` if symmetric, `0` otherwise.
