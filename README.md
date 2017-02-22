@@ -55,7 +55,7 @@ This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Ma
 
 - Haruvy and Stahl (1998) : An empirical model of equilibrium selection in symmetric normal-form games
 
-- Costa-Gomes et al (1998) : Cognition and behavior in normal-form games, an experimental study (only games without TS treatment)
+- Costa-Gomes et al (1998) : Cognition and behavior in normal-form games, an experimental study (only games without TS treatment; also note that games 3A and 4D are identical to games 3A and 4D in Costa-Gomes et al (2001) : Cognition and behavior in normal-form games, an experimental study) 
 
 ## Footnotes
 
