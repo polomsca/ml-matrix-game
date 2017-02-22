@@ -8,7 +8,7 @@ To contribute to this [database](https://github.com/polomsca/one-shot-games/blob
 
 `paper` | `game` | `matrixrow` | `matrixcol` | `choicerow` | `choicecol` | `shape` | `symmetric` | `n` 
 --- | --- | --- | --- | --- | --- | --- | --- | ---
-stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | 40
+stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | 
 
 A couple notes on formatting:
 
