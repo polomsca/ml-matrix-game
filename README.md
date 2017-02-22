@@ -10,13 +10,13 @@ To contribute to this [database](https://github.com/polomsca/one-shot-games/blob
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 stahlwilson1994 | 1 | 40 10 70; 20 80 0; 30 100 60 | | 11 40; 0 40; 29 40 | | 3 3 | 1 | 
 
-- `matrixrow` : The payoff matrix for the row player. Separate elements in a row with a space. Separate rows with a semicolon.
-- `matrixcol` : This field may be left blank if the game is symmetric and the player results are pooled.
-- `choicerow` : The choice frequency for the row player. For fractions, separate integers with a space, not a slash. Separate choice frequencies with a semicolon. 
-- `choicecol` : This field may be left blank if the game is symmetric and the player results are pooled.
-- `shape` : The number of rows followed by number of columns. Separate values by a space.
+- `matrixrow` : Row player's payoff matrix. Separate elements with a space. Separate rows with a semicolon.
+- `matrixcol` : May be left blank if player results are pooled.
+- `choicerow` : Row player's choice frequencies. For fractions, separate integers with a space. Separate frequencies with a semicolon. 
+- `choicecol` : May be left blank if player results are pooled.
+- `shape` : Number of rows followed by number of columns. Separate values by a space.
 - `symmetric` : `1` if symmetric, `0` otherwise.
-- `n` : The total number of subjects per game if `choicerow` and `choicecol` were expressed as decimals.
+- `n` : Number of subjects if `choicerow` were expressed as decimals.
 
 This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models. Currently, projects are written in [IPython notebooks](https://ipython.org/) using the following libraries and packages:
 
