@@ -47,15 +47,13 @@ This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Ma
 
 - Stahl and Wilson (1995) : On players' models of other players, theory and experimental evidence
 
-- Weizsäcker (2000) : Ignoring the rationality of others, evidence from experimental normal-form games (only games taken from Costa-Gomes et al (2001) : Cognition and behavior in normal-form games, an experimental study)
-
 - Goeree and Holt (2001) : Ten little treasures of game theory and ten intuitive contradictions (only games from "A Matching Pennies Game" and "The Kreps Game")
 
 - Rydval and Ortmann (2005) : Loss avoidance as selection principle, evidence from simple stag-hunt games
 
 - Haruvy and Stahl (1998) : An empirical model of equilibrium selection in symmetric normal-form games
 
-- Costa-Gomes et al (1998) : Cognition and behavior in normal-form games, an experimental study (only games without TS treatment; also note that games 3A and 4D are identical to games 3A and 4D in Costa-Gomes et al (2001) : Cognition and behavior in normal-form games, an experimental study) 
+- Costa-Gomes et al (1998) : Cognition and behavior in normal-form games, an experimental study (only games without TS treatment)
 
 ## Footnotes
 
