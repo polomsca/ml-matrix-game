@@ -4,7 +4,13 @@
 
 This is a compilation of data from several behavioral economics experiments where people play various games like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma) or [Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt). 
 
-To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are one-shot (no finitely repeated or "second-mover" games) and in matrix form (also known as bimatrix, normal, or strategic). You may submit the paper the games appear in, or you may input the data with the following format:
+To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that:
+
+- Are one-shot (no finitely repeated or "second-mover" games), and 
+- In matrix form (also known as bimatrix, normal, or strategic), and
+- Can include experimental treatments if no significant deviation from baseline was found
+
+You may email me the paper the games appear in, or you may input the data with the following format:
 
 `paper` | `game` | `matrixrow` | `matrixcol` | `choicerow` | `choicecol` | `shape` | `symmetric` | `n` 
 --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -18,9 +24,9 @@ A couple notes on formatting:
 - `choicecol` : This field may be left blank if the game is symmetric and the player results are pooled.
 - `shape` : The number of rows followed by number of columns. Separate values by a space.
 - `symmetric` : `1` if symmetric, `0` otherwise.
-- `n` : The total number of subjects per game if `choicerow` and `choicecol` are expressed as decimals.
+- `n` : The total number of subjects per game if `choicerow` and `choicecol` were expressed as decimals.
 
-This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models in papers. Currently, projects are written in [IPython notebooks](https://ipython.org/) using the following libraries and packages:
+This is also a collection of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) models that attempt to predict how people make decisions in these games. To contribute to this collection, you can submit any relevant models or attempts to replicate models. Currently, projects are written in [IPython notebooks](https://ipython.org/) using the following libraries and packages:
 
 - [NumPy](http://www.numpy.org/)
 - [pandas](http://pandas.pydata.org/)
