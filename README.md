@@ -4,7 +4,7 @@
 
 This is a compilation of data from several behavioral economics experiments where people play various games like the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma) or [Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt). 
 
-To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/gamesmxn.csv), you can submit any experiment with games that are two-player, one-shot, and normal-form, like so:
+To contribute to this [database](https://github.com/polomsca/one-shot-games/blob/master/games.csv), you can submit any experiment with games that are two-player, one-shot, and normal-form, like so:
 
 `paper` | `game` | `matrixrow` | `matrixcol` | `choicerow` | `choicecol` | `shape` | `symmetric` | `n` 
 --- | --- | --- | --- | --- | --- | --- | --- | ---
